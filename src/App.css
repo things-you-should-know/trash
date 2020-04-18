@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+
+.add-item {
+  padding: 1em;
+  margin: 1em 0em;
+}
+.display-item {
+  width: 18rem;
+}
+.del {
+  border-radius: 5em;
+  border: 2px solid white;
+  background-color: transparent;
+  color: #fff;
+}
+.form-control {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+}

@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+/* Custom Components */
+import App from './App';
+/* Custom Components */
+
+/*Bootstrap*/
+import "./bootstrap.min.css";
+
+/*End Bootstrap*/
+
+import './App.css';
+
+function Welcome(props) {
+  return <h2>Hello, {props.name}</h2>;
+}
 
 ReactDOM.render(
   <React.StrictMode>
